@@ -1,0 +1,113 @@
+#full{
+	width: 100%;
+	height: auto;
+}
+#inner_full{
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+#header{
+	width:100%;
+	height: 50px;
+	background-color: red;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#body{
+	margin-top: 50px;
+	width: 100%;
+	height: 500px;
+}
+#footer{
+	width: 100%;
+	height: 70px;
+	background-color: red;
+	color: white;
+}
+ul li{
+	margin-top: 60px;
+	width: 20%;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 230px;
+	background: red;
+	color: white;
+	float: left;
+	border-radius: 10px;
+	list-style: none;
+	text-align: center;
+	flex:1;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+#form{
+	width: 80%;
+	height: 400px;
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+    margin: auto;
+}
+
+
+
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  .form-container {
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="password"] {
+    width: 400px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    flex-direction: column;
+  }
+  
+  .form-container input[type="text"]:focus,
+  .form-container input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+    label {
+        display: inline-block;
+        width: 110px;
+        color: #777777;
+      }
+  .form-container .btn {
+    background-color: #04aa6d;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  .form-container .btn:hover,
+  .open-button:hover {
+    opacity: 1;
+  }
